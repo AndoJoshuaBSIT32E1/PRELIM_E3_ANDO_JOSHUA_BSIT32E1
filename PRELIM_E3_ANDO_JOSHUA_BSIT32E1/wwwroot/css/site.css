@@ -1,22 +1,86 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-image:url(/Images/BackG.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+.Home {
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.student_profile {
+    text-align: center;
+    padding: 50px;
+    border: 2px solid #171414;
+    border-radius: 10px;
+    width: 450px;
+    margin: 0 auto;
+    background-color: white;
+    color: #000;
+}
+
+.student_info {
+    text-align: justify;
+    color: #000;
+}
+
+
+.student_profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+.schedule {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    background-color: rgba(13,110,253,.25);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+    font-weight: bold;
+    color: #f0f0f0;
+}
+
+.event {
+    margin-top: 10px;
+    color: #000000;
 }

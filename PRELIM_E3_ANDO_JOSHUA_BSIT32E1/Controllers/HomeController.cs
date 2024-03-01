@@ -18,6 +18,11 @@ namespace PRELIM_E3_ANDO_JOSHUA_BSIT32E1.Controllers
             return View();
         }
 
+        public IActionResult Schedule()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
